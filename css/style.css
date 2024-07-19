@@ -1,0 +1,49 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    font-family: "Rubik", sans-serif;
+}
+ul, ol{
+    cursor: pointer;
+    list-style: none;
+}
+.sidbar{
+    width: 350px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.sidebar-navigation{
+    display: block;
+    width: 100%;
+    overflow-y: scroll;
+    height: 100vh;
+}
+.sidebar-navigation::-webkit-scrollbar{
+    display: none;
+}
+.page-body-wrapper{
+    width: calc(100% - 350px);
+    margin-left: 350px;
+    padding: 20px;
+    overflow-x: hidden;
+}
+.box{
+    background-color: blanchedalmond;
+    aspect-ratio: 1;
+}
+.w-4{
+    width: 32.33%;
+}
+img{
+    width: 100%;
+    height: 581px;
+    object-fit: cover;
+    background-position: center;
+}
+.accordion-item {
+    border: none;
+}
